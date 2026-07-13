@@ -71,10 +71,6 @@ section {
 /*================= 
 header styling start
  ==================*/
-.header {
-    padding: 20px 0;
-
-}
 
 nav {
     position: fixed;
@@ -82,7 +78,7 @@ nav {
     z-index: 33;
     background-color: #FFFFFF;
     width: 100%;
-    padding: 20px 0;
+    padding: 15px 0;
 }
 
 .header_inner {
@@ -93,7 +89,6 @@ nav {
 .text_bold {
     color: var(--primary-color);
     font-weight: bold;
-
     margin-left: 5px;
 }
 
@@ -112,7 +107,7 @@ nav {
 }
 
 .fa-magnifying-glass {
-    color: var(--primary-bg) !important;
+    color: var(--primary-bg);
     font-weight: 800;
 }
 
@@ -121,7 +116,6 @@ header styling start
  ==================*/
 .hero_section {
     background-color: var(--primary-bg);
-    margin-top: 30px !important;
 }
 
 .hero_inner {
@@ -130,6 +124,7 @@ header styling start
 }
 
 .hero_text {
+    width: 50%;
     flex-direction: column;
     justify-content: center;
 }
@@ -150,7 +145,7 @@ header styling start
     flex-direction: column;
     background-color: #FFFFFF;
     justify-content: center;
-    padding: 24px;
+    padding: 24px 20px;
     border-radius: 16px;
 }
 
@@ -171,4 +166,44 @@ header styling start
     ;
     border-radius: 8px;
     padding: 5px 10px;
+}
+
+.search_input {
+    color: #FFFFFF;
+}
+
+.search_input_text {
+    color: #FFFFFF;
+}
+
+.location .comon_button {
+    background: linear-gradient(to bottom right,
+            #FF7A7A 0%,
+            #F65900 100%);
+}
+.location input {
+  padding: 10px 150px 10px 30px;
+  background-color: #F5F5F5;
+  border: none;
+  border-radius: 8px;
+ 
+}
+
+.location{
+    margin-top: 10px;
+    position: relative;
+    display: flex;
+    gap: 30px;
+}
+.location .input_icon_location{
+    position: absolute;
+    left: 0;
+    top: 30%;
+}
+.location input::placeholder{
+  font-size: 16px;
+  font-weight: bold;
+}
+.hero_img img{
+    width: 100%;
 }

@@ -22,34 +22,33 @@
     <!--========================== 
     header markaping start
      ===============================-->
-    <header class="header">
-        <nav>
-            <div class="container">
-                <div class="header_inner d-flex">
-                    <div class="logo">
-                        <img src="./images/Logo.png" alt="">
-                    </div>
+    <!-- nav section -->
+    <nav>
+        <div class="container">
+            <div class="header_inner d-flex">
+                <div class="logo">
+                    <img src="./images/Logo.png" alt="">
+                </div>
 
-                    <div class="location">
-                        <p><span class="text_bold">Deliver to:</span><i class="fa-solid fa-location-dot"></i>
-                            &nbsp;Current Location<span span class="text_bold">
-                                Mohammadpur
-                                Bus Stand, Dhaka </span> </p>
-                    </div>
+                <div class="location">
+                    <p><span class="text_bold">Deliver to:</span><i class="fa-solid fa-location-dot"></i>
+                        &nbsp;Current Location<span span class="text_bold">
+                            Mohammadpur
+                            Bus Stand, Dhaka </span> </p>
+                </div>
 
-                    <div class="login">
-                        <i class="fa-solid fa-magnifying-glass"></i> <span class="text_bold">Search Food </span> <button
-                            class="comon_button"><i class="fa-solid fa-user"></i>
-                            Login</button>
-                    </div>
+                <div class="login">
+                    <i class="fa-solid fa-magnifying-glass"></i> <span class="text_bold">Search Food </span> <button
+                        class="comon_button"><i class="fa-solid fa-user"></i>
+                        Login</button>
                 </div>
             </div>
-        </nav>
-    </header>
-    <!--========================== 
+        </div>
+    </nav>
+    <header class="hero_section">
+        <!--========================== 
     hero start
      ===============================-->
-    <section class="hero_section">
         <div class="container">
             <div class="hero_inner d-flex">
                 <div class="hero_text d-flex">
@@ -61,11 +60,15 @@
                             <span> <img src="./images/icon/basket.png" alt=""> &nbsp;Pickup</span>
                         </div>
 
-                        <div>
-                            <label for="location"><i class="fa-solid fa-location-dot"></i></label>
-                            <input type="search" id="location">
-                            <button class="comon_button"> <i class="fa-solid fa-magnifying-glass search_input"></i> Find
-                                Food</button>
+                        <div class="location">
+                            <!-- input search  -->
+                            <i class="fa-solid fa-location-dot input_icon_location"></i>
+                            <input type="search" placeholder="Enter Your Address">
+
+                            <!-- find button -->
+                            <button class="comon_button"> <i class="fa-solid fa-magnifying-glass search_input"></i>
+                                &nbsp;<span class="search_input_text">Find
+                                    Food</span></button>
                         </div>
                     </div>
                 </div>
@@ -74,7 +77,8 @@
                 </div>
             </div>
         </div>
-    </section>
+    </header>
+
 </body>
 
 </html>
