@@ -58,7 +58,7 @@ p {
     padding: 14px 35px;
     border: none;
     border-radius: 10px;
-      transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .comon_button:hover {
@@ -220,4 +220,62 @@ header styling start
     outline: none;
     border-color: #F65900;
     box-shadow: 0 0 5px rgba(246, 89, 0, 0.3);
+}
+
+/*================= 
+Flash Deals section
+ ==================*/
+.flash_deal_inner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto;
+    gap: 20px;
+    box-shadow: 0px 0px 52px #c4c4c452;
+    padding: 25px;
+    border-radius: 16px;
+}
+
+.deal_card img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.deal_card{
+    position: relative;
+}
+.Discount_card {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    bottom: 2.5%;
+    left: 0;
+    width: 120px;
+    height: 60px;
+    color: white;
+    background-color: var(--primary-bg);
+    border-radius: 0 30px 0 10px;
+}
+.Discount_number{
+margin-left: 10px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.Discount_parsent{
+    font-size: 20px;
+    font-weight: bold;
+}
+.deal_caption p:not(:last-child) {
+    color: #424242;
+    font-weight: 800;
+}
+
+.deal_caption p:last-child {
+    margin-top: 10px;
+    color: #F17228;
+    font-weight: 800;
+    background-color: rgba(241, 114, 40, 0.2);
+    padding: 5px;
+    border-radius: 5px;
+    width: 140px;
 }
