@@ -237,6 +237,7 @@ Flash Deals section
 
 .deal_card img {
     width: 100%;
+    height: 100%;
     border-radius: 10px;
     object-fit: cover;
 }
@@ -248,13 +249,13 @@ Flash Deals section
     align-items: center;
     justify-content: flex-start;
     position: absolute;
-    bottom: 2.5%;
+    bottom: 0;
     left: 0;
-    width: 120px;
+    width: 100px;
     height: 60px;
     color: white;
     background-color: var(--primary-bg);
-    border-radius: 0 30px 0 10px;
+    border-radius: 0 20px 0 10px;
 }
 .Discount_number{
 margin-left: 10px;
