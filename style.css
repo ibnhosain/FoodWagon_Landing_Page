@@ -241,9 +241,11 @@ Flash Deals section
     border-radius: 10px;
     object-fit: cover;
 }
-.deal_card{
+
+.deal_card {
     position: relative;
 }
+
 .Discount_card {
     display: flex;
     align-items: center;
@@ -257,15 +259,18 @@ Flash Deals section
     background-color: var(--primary-bg);
     border-radius: 0 20px 0 10px;
 }
-.Discount_number{
-margin-left: 10px;
+
+.Discount_number {
+    margin-left: 10px;
     font-size: 50px;
     font-weight: bold;
 }
-.Discount_parsent{
+
+.Discount_parsent {
     font-size: 20px;
     font-weight: bold;
 }
+
 .deal_caption p:not(:last-child) {
     color: #424242;
     font-weight: 800;
@@ -279,4 +284,60 @@ margin-left: 10px;
     padding: 5px;
     border-radius: 5px;
     width: 140px;
+}
+
+/* =========how_work_section========== */
+.how_work_section {
+    background: linear-gradient(to bottom,
+            rgba(255, 206, 103, 0.22) 0%,
+            rgba(253, 237, 202, 0.22) 100%);
+}
+
+.how_work_inner {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.how_work_heading h2 {
+    color: #F17228;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.work_Features {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    justify-content: center;
+}
+
+.Features_card img {
+    width: 40%;
+}
+
+.Features_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Features_card p {
+    color: #9E9E9E;
+   text-align: center;
+}
+.card_text_one{
+    width: 215px;
+}
+.card_text_two{
+    width: 240px;
+}
+.card_text_tree{
+    width: 240px;
+}
+.card_text_four{
+    width: 240px;
 }
